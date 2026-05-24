@@ -1,0 +1,114 @@
+body{
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    padding: 60px;
+    
+}
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+#perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+#contato{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.37);
+}
+
+    
+h1{
+    font-family: 'Playfair Display', serif;
+}
+:root {
+    --cor-principal: #b5451b;
+    --cor-texto: #1a1a1a;
+    --cor-fundo: #faf8f5;
+}
+h3{
+    display: flex;
+    color: var(--cor-principal);
+    align-items: center;
+
+}
+.pagina::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: calc(100% - 120px);
+    background-color: var(--cor-principal);
+    border-radius: 10%;
+    margin: -70px;
+
+    
+}
+h3::after{
+content: '';
+    flex: 1;      
+    height: 1px;        
+    background-color: rgba(0, 0, 0, 0.205); 
+    border-radius: 80px; 
+    margin: 5px;
+}
+span{
+    font-size: 17px;
+    border-color: #1a1a1a;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
+.projeto{
+    border-left: 3px solid rgba(0, 0, 0, 0.267);
+padding: 50px;
+}
+.banco_titulo{
+    font-size: 20px;
+    color: #1a1a1ab9; ;
+}
+.banco_info{
+  color: var(--cor-principal);
+  font-size: 15;
+}
+.projeto2{
+   border-left: 3px solid rgba(0, 0, 0, 0.267); 
+   padding: 50px;
+}
+.web_titulo{
+   font-size: 20px;
+    color: #1a1a1ab9; 
+}
+.web_info{
+  color: var(--cor-principal);
+  font-size: 15;
+}
+.projeto3{
+    border-left: 3px solid rgba(0, 0, 0, 0.267);
+    padding: 50px;
+}
+
+.analise_titulo{
+    font-size: 20px;
+    color: #1a1a1ab9; ;
+}
+.analise_info{
+  color: var(--cor-principal);
+  font-size: 15;
+}
+.pagina {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 60px 64px;
+    background: white;
+    box-shadow: 0 4px 40px rgba(0,0,0,0.10);
+}
